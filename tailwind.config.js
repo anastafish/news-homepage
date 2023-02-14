@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Inter:'Inter'
+      }
+    },
     colors:{
       orange: 'hsl(var(--soft--orange))',
       red: 'hsl(var(--soft--red))',
